@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Responsive Lightbox Portfolio Gallery - Template Monster Demo</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/magnific-popup.css">
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Responsive Lightbox Portfolio</h1>
+    
+    <ul id="portfolio" class="clearfix">
+      <li><a href="img/1.jpg" title="Brick and Bay Windows"><img src="img/1.jpg" alt="brick and by windows"></a></li>
+      <!-- https://dribbble.com/shots/1543255-Brick-and-Bay-Windows -->
+      
+      <li><a href="img/2.jpg" title="Simple iPad Icons"><img src="img/2.jpg" alt="old-style ipad icons"></a></li>
+      <!-- https://dribbble.com/shots/1543899-iPad-icons -->
+      
+      <li><a href="img/3.jpg" title="Mobile Profile"><img src="img/3.jpg" alt="mobile iphone app profile ui"></a></li>
+      <!-- https://dribbble.com/shots/1543085-Profile -->
+      
+      <li><a href="img/4.jpg" title="New Shoes"><img src="img/4.jpg" alt="new balance shoes"></a></li>
+      <!-- https://dribbble.com/shots/1543210-574 -->
+      
+      <li><a href="img/5.jpg" title="Rive Radio Icon"><img src="img/5.jpg" alt="rive radio icon"></a></li>
+      <!-- https://dribbble.com/shots/1543610-Rive-Radio-app-icon-design -->
+      
+      <li><a href="img/6.jpg" title="Blood Pressure app"><img src="img/6.jpg" alt="blood pressure app ui"></a></li>
+      <!-- https://dribbble.com/shots/1543316-Blood-Pressure-App -->
+      
+    </ul>
+  </div>
+<script type="text/javascript">
+$(function(){
+  $('#portfolio').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    image: {
+      cursor: null,
+      titleSrc: 'title'
+    },
+    gallery: {
+      enabled: true,
+      preload: [0,1], // Will preload 0 - before current, and 1 after the current image
+      navigateByImgClick: true
+		}
+  });
+});
+</script>
+</body>
+</html>
