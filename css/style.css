@@ -1,7 +1,9 @@
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);
-@import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
-
+ @font-face {
+    font-family: "LuloCleanW01-OneBold";
+    src: url(../fonts/LuloClean.ttf);
+}
 body {
     width: 100%;
     height: 100%;
@@ -869,4 +871,5 @@ html[xmlns] .clearfix { display: block; }
 padding-top:3px;
 font-family: "Open Sans";
   color:#363636;
+
 }
