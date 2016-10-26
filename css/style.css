@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   line-height: 1.6em;
     background-color: #fff;
+
 }
 
 html {
@@ -316,7 +317,7 @@ max-width:50px;
 }
 
 #intro.intro {
-  padding:200px 0 50px;
+  padding:200px 0 20px;
 }
 
 .intro .slogan {
@@ -358,8 +359,11 @@ max-width:50px;
 }
 
 .intro .slogan h4 {
-  color: #fff;
-  text-shadow: -1px 1px 1px #000;
+color:#333;
+letter-spacing: 0.6em;
+font-weight: bolder;
+font-size:20px;
+margin-top:3%;
 }
 
 
@@ -815,7 +819,7 @@ html[xmlns] .clearfix { display: block; }
 }
 
 
-.hover a:hover img {
+.hover img:hover  {
   opacity: 0.4;
   -webkit-animation-name: flash ;
   animation-name: flash ;
@@ -840,3 +844,11 @@ html[xmlns] .clearfix { display: block; }
 }
 
 
+
+#home-btn{
+  background:#ebba4d;
+  color:white;
+  border-radius:0px;
+  padding:10px 15px;
+  box-shadow: 1px 2px 10px -2px rgba(30,30,30,0.8);
+}
