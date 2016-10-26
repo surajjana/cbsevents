@@ -76,9 +76,9 @@ img.img-responsive {
   border-bottom: 1px solid #eee;
   box-shadow:0px 0px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin: 0 auto;
-  height:68px;
-  padding-top:10px;
+  margin: 0px;
+  height:50px;
+  padding-top:0px;
   transition:all 0.3s ease;
 }
 
@@ -123,6 +123,8 @@ img.img-responsive {
   text-transform: none;
   font-weight: normal;
   font-family:"Open Sans";
+  padding-top:10px ;
+   padding-bottom:10px 
 }
 
 
@@ -131,6 +133,7 @@ img.img-responsive {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
       transition:all 0.3s ease;
+
 }
 
 .navbar-custom .nav li a:hover,
@@ -318,7 +321,7 @@ max-width:50px;
 }
 
 #intro.intro {
-  padding:200px 0 40px;
+  padding:200px 0 70px;
 }
 
 .intro .slogan {
